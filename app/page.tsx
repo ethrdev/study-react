@@ -7,6 +7,8 @@ export default async function Home() {
       <Link  href="/filters">Filters</Link>
       <Link href="/dropdowns">Dropdowns</Link>
       <Link href="/hooks">Hooks</Link>
+      <Link href="/image-gallery">Image Gallery</Link>
+      <Link href="/rendering">Rendering</Link>
     </div>
   );
 }
