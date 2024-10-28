@@ -21,7 +21,9 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     // 3.Den Context Provider mit einem Wert bereitstellen
     return (
         <ThemeContext.Provider value={{ theme, toggleTheme }}>
-            {children}
+            <div className={theme === 'light' ? 'bg-zinc-50 text-zinc-950' : 'bg-zinc-900 text-slate-50'}>
+                {children}
+            </div>
         </ThemeContext.Provider>
     )
 }
