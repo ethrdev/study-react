@@ -12,7 +12,7 @@ export default function ThemeButton() {
     return (
         // Der Button nutzt die toggleTheme-Funktion, um das Theme zu wechseln
         <button onClick={toggleTheme}>
-            {theme === 'dark' ? 'Switch to Dark' : 'Switch to Light'}
+            {theme === 'dark' ? 'Switch to Light' : 'Switch to Dark'}
         </button>
     )
 }
